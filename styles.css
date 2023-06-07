@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?Poppins:ital,wght@1,300;1,400&400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital@1&display=swap');
+
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.profile-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 370px;
+  width: 100%;
+  background-color: #f7f7f7;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  padding: 27px;
+
+}
+
+
+.image{
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color:#87ceeb;
+  padding: 2px;
+  margin-bottom: 12px;
+}
+
+.image .profile-img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  background-color: #eee;
+  padding: 5px;
+
+}
+
+.profile-card .text-data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.text-data .name{
+  font-size: 30px;
+  font-weight: 700;
+  color: #ff0000;
+  font-family: 'Playfair', serif;
+}
+
+.text-data .job{
+  font-size: 27px;
+  font-weight: 500;
+  color: #000;
+}
